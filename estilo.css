@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+/* impotar fuente de google*/
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+.main{
+
+    background-image: linear-gradient(to bottom, #fff9ed, #fef5e9, #fcf2e4, #fbeee0, #faeadc, #ddcfc2, #dfcbbc, #dac8ba, #d3c2b5, #c4b4a7, #b5a599);
+    
+}
+.color{
+    background-color:#fff5ea ;
+}
+
+.colorF{
+    color:#837367;
+    font-family:'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.div__nav{
+    margin-left: 34%;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.video{
+    width: 90%;
+}
+
+.texto{
+    margin-right: 10%;
+    color:#4e443c;
+    font-family:'Cormorant Garamond', serif; 
+}
+
+.portada{
+    width: 100%;
+    height: 85vh;  
+}
+
+.colorFot{
+    background-color:#ebd9cb;
+}
+
+.div__fot{
+    text-align: center;
+    font-family:'Cormorant Garamond', serif;
+}
+
+.div__a , .titulo1{
+    text-decoration: none;
+    color: #4e443c;
+    font-family:'Cormorant Garamond', serif;
+}
+
+.principal{
+    background-color: #837367;
+    color: #fff9ed;
+    font-family:'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+.img__velas{
+    width: 350px;
+    height: 350px;
+    transition: all .5s;
+    margin-left: 15%;
+    margin-top: 5%;
+    
+}
+.img__velas:hover {
+    transform: scale(1.1);
+}
+.datos{
+    align-items: center;
+}
+
+
+/*PRODUCTOS*/
+.intro{
+    position: absolute;
+    background-color: #837367;
+    color: #fff9ed;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    top: 30%; 
+    width: 50%;
+    height: 70px;
+    animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: 1 ;
+}
+
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+   
+}
+
+.datos__vela{
+    margin: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.nombre__producto{
+    font-size: 110%;
+    margin-bottom: 2%;
+}
+
+.precio{
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+
+/*LOCALES*/
+
+.intro2{
+    background-color: #837367;
+    color: #fff9ed;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: 1 ;
+   font-family:'Cormorant Garamond', serif;
+}
+
+.locales__intro{
+    width: auto;
+    height: auto;
+    margin: 5%;
+    
+}
+.titulo{
+    margin-bottom: 1%;
+    font-family:'Cormorant Garamond', serif;
+}
+
+.div1{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%; 
+    
+}
+
+.div__h{
+    width: 100%;
+    height: 50%;
+    font-family:'Abhaya Libre', serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.img__local{
+    width: 40%;
+    height:50%; 
+}
+
+.div__div__h{
+    background-color: #29972e;
+    color: #EDE4B5;
+    width: 80%;
+    height: 50%;
+}
+
+.nom__local{
+    text-align: center;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+.nom2__local{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: medium;
+   
+}
+
+.div__direc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    height: 50%;
+}
+.direcciones{
+    display: flex;
+    margin: 10%;
+}
+
+
+.div__div__h2{
+    background-color: #be1919;
+    color: #EDE4B5;
+    width: 80%;
+    height: 50%;
+}
+
+.div__h2{
+    width: 100%;
+    height: 50%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.div__direc2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 50%;
+}
+.map, .p{
+    margin: 1%;
+}
+
+/*CONTACTO*/
+
+.form1{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space{
+    background-color: white;
+    font-family:'Abhaya Libre', serif;
+    color: #837367;
+}
+
+
+
+
+
