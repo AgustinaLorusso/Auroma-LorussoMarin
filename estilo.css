@@ -72,8 +72,8 @@
 }
 
 .img__velas{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     transition: all .5s;
     margin-top: 5%;
     
@@ -103,6 +103,7 @@
    
 }
 .prueba{
+    width: 50%;
     margin-left: 25%;   
     
 }
@@ -144,9 +145,11 @@
 }
 
 .local2{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    padding-bottom: 5%;
 }
+
+
 .try4{
     background-color: #792f2f;
     color: white;
@@ -154,5 +157,110 @@
     font-family:'Cormorant Garamond', serif;
 }
 
+@media (max-width:576px){
+
+    .img__velas{
+        width: 100px;
+        height: 100px; 
+    } 
+    .portada{
+        height: 50vh;  
+    }
+    .slogan{
+        height:17%;
+    }
+    .prueba{
+        margin-left: 5%;
+        width: 90%;    
+    } 
+    .video{
+        width: 70%;
+        margin-left: 17%;
+    }
+    .introduccion{
+        width: 100%;
+        text-align: center;
+        margin-left: 5%;
+        padding-bottom: 5%;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width:768px){
+    
+    .img__velas{
+        width: 200px;
+        height: 200px; 
+    }
+    .portada{
+        height: 60vh;  
+    }
+    .slogan{
+        height: 15%;
+    }
+    .prueba{
+        margin-left: 10%;
+        width: 80%;    
+    } 
+    .video{
+        width: 70%;
+        margin-left: 17%;
+    }
+    .introduccion{
+        width: 100%;
+        text-align: center;
+        margin-left: 5%;
+        padding-bottom: 5%;
+    }
+    
+
+}
+
+@media screen and  (min-width:769px) and (max-width:992px){
+    
+    .img__velas{
+        width:200px;
+        height:200px; 
+    }
+
+    .prueba{
+        margin-left: 10%;
+        width: 80%;    
+    } 
+    .video{
+        width: 70%;
+        margin-left:18%;
+    }
+    .introduccion{
+        width: 90%;
+        text-align: center;
+        margin-left: 10%;
+        padding-bottom: 5%;
+    }
+
+
+}
+@media screen and  (min-width:992px) and (max-width:1200px){
+    .img__velas{
+        width:200px;
+        height:200px; 
+    }
+
+    .prueba{
+        margin-left: 10%;
+        width: 80%;    
+    } 
+    .video{
+        width: 90%;
+        margin-left:60%;
+    }
+    .introduccion{
+        width: 90%;
+        text-align: center;
+        margin-left: 10%;
+        padding-bottom: 5%;
+    }
+
+}
 
 
