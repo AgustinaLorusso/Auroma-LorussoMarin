@@ -26,7 +26,7 @@
 }
 
 .div__nav{
-    margin-left: 34%;
+    margin-left: 40%;
 }
 
 .logo{
@@ -157,6 +157,10 @@
     font-family:'Cormorant Garamond', serif;
 }
 
+.img__log{
+    width: auto;
+}
+
 @media (max-width: 575px){
 
     .img__velas{
@@ -182,6 +186,15 @@
         text-align: center;
         margin-left: 5%;
         padding-bottom: 5%;
+    }
+    .header__otros{
+        display: none;
+    }
+    .img__log{
+        display: none;
+    }
+    .back{
+        background-image: url(./assets/img/margen1.jpg);
     }
 
 }
@@ -212,7 +225,14 @@
         margin-left: 5%;
         padding-bottom: 5%;
     }
-    
+    .header__otros{
+        display: none;
+    }
+
+    .img__log{
+        display: none;
+    }
+  
 
 }
 
@@ -237,6 +257,11 @@
         margin-left: 10%;
         padding-bottom: 5%;
     }
+
+    .header__otros{
+        display: none;
+    }
+
 
 
 }
